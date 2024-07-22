@@ -1,6 +1,11 @@
 # puppeteer4agent
 基于 nodejs 运行时的截图 web 应用，快速创建并部署到阿里云函数计算 FC , 用于各种Agent的卡片生成
 
+## 了解什么是函数计算
+> 函数计算是事件驱动的全托管计算服务。使用函数计算，您无需采购与管理服务器等基础设施，只需编写并上传代码或镜像。函数计算为您准备好计算资源，弹性地、可靠地运行任务，并提供日志查询、性能监控和报警等功能。
+
+更多详细文档：[快速创建函数](https://help.aliyun.com/zh/functioncompute/getting-started/quickly-create-a-function?spm=a2c4g.11186623.0.0.4694511ejhLV41)
+
 ## 开发指南：生成带文本叠加的图像截图并上传到阿里云OSS
 
 ### 1. 初始化所需依赖和阿里云OSS客户端
