@@ -31,7 +31,10 @@ const client = new OSS({
 
 ### 2. 定义生成截图并上传到OSS的函数
 
-定义一个函数来生成网页截图并将其上传到阿里云OSS：
+定义一个函数来生成网页截图并将其上传到阿里云OSS，另外使用此函数需要完成以下：
+1. 开通OSS对象存储产品，具体操作如下：[开始使用OSS](https://help.aliyun.com/zh/oss/getting-started/getting-started-with-oss?spm=a2c4g.11186623.0.0.42397368n5PyYY)
+2. 创建并获取AK/SK：[创建AccessKey](https://help.aliyun.com/zh/ram/user-guide/create-an-accesskey-pair?spm=a2c4g.11186623.0.0.603a6ecfTzAeqm)
+
 
 ```javascript
 async function captureScreenshot(htmlContent) {
@@ -192,3 +195,8 @@ exports.handler = async function (event, context, callback) {
 ### 4. 返回截图上传结果
 
 在处理函数中调用截图生成并上传的函数，并将结果返回给调用者。错误处理也包含在内，以确保在出现问题时返回适当的错误信息。
+
+### 参考资料
+
+1. 函数计算：[请求处理程序:Handler](https://help.aliyun.com/zh/functioncompute/user-guide/request-handlers?spm=a2c4g.11186623.0.0.156e2510e2cJb3)
+2. OSS 对象存储：[开始使用OSS](https://help.aliyun.com/zh/oss/getting-started/getting-started-with-oss?spm=a2c4g.11186623.0.0.42397368n5PyYY)
