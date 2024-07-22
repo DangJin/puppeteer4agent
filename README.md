@@ -205,3 +205,7 @@ exports.handler = async function (event, context, callback) {
 
 1. 函数计算：[请求处理程序:Handler](https://help.aliyun.com/zh/functioncompute/user-guide/request-handlers?spm=a2c4g.11186623.0.0.156e2510e2cJb3)
 2. OSS 对象存储：[开始使用OSS](https://help.aliyun.com/zh/oss/getting-started/getting-started-with-oss?spm=a2c4g.11186623.0.0.42397368n5PyYY)
+
+### 交流学习
+![puppeteer4agent](https://github.com/user-attachments/assets/08d23e47-d6bc-479c-ae14-65c2914a54a2)
+
