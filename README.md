@@ -1,5 +1,16 @@
-# puppeteer4agent
-基于 nodejs 运行时的截图 web 应用，快速创建并部署到阿里云函数计算 FC , 用于各种Agent的卡片生成
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=venom&height=300&color=gradient&text=puppeteer4agent&textBg=false&animation=fadeIn&stroke=43b0cb&fontColor=43b0cb" />
+  <p>基于 nodejs 运行时的截图 web 应用，快速创建并部署到阿里云函数计算 FC , 用于各种Agent的卡片生成</p>
+</div>
+<p align="center">
+  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+  <a href="https://twitter.com/JinsFavorites" target="_blank">
+    <img alt="Twitter: JinsFavorites" src="https://img.shields.io/twitter/follow/JinsFavorites.svg?style=social" />
+  </a>
+</p>
 
 ## 了解什么是函数计算
 > 函数计算是事件驱动的全托管计算服务。使用函数计算，您无需采购与管理服务器等基础设施，只需编写并上传代码或镜像。函数计算为您准备好计算资源，弹性地、可靠地运行任务，并提供日志查询、性能监控和报警等功能。
